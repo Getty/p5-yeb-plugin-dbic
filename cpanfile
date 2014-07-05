@@ -7,4 +7,5 @@ requires 'Module::Runtime', '0';
 
 on test => sub {
   requires 'Test::More', '0.94';
+  requires 'SQL::Translator', '>= 0.11016';
 };
